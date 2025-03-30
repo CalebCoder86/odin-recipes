@@ -1,25 +1,108 @@
-.main-title {
+html {
+    text-align: center;
+    background-color: rgb(0, 195, 255, 255);
+    padding: 3%;
+}
+
+div.header {
+    position: fixed;
+    top: 2%;
+    padding: 0.5%;
+    background-color: rgb(181, 184, 16);
+    border: 2px solid black;
+}
+
+div.page-contents {
+    display: inline-block;
+    padding: 1%;
+    text-align: center;
+    width: 750px;
+    background-color: rgb(181, 184, 16);
+    border: 2px solid black;
+}
+
+div.highlight {
+    display: inline-block;
+    padding: 1%;
+    text-align: center;
+    position: relative;
+    width: 700px;
+    height: auto;
+    background-color: rgb(0, 153, 255, 255);
+    border: 2px solid black;
+}
+
+.highlight-title {
+    font-size: 48px;
+    color: rgb(0, 0, 0, 255);
+}
+
+.highlight-text {
+    font-size: 19px;
+    font-weight: bold;
+    background-color: rgb(146, 190, 216);
+    padding: 2%;
+}
+
+div.spacer {
+    display: inline;
+    padding: 1%;
+}
+
+div.menu-item {
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 3%;
+    outline-offset: 3%;
+}
+
+div.list {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    margin: 1 auto;
+    width: 270px;
+    height: 350px;
+    padding: 1%;
+    background-color: rgb(181, 184, 16);
+    border: 2px solid black;
+}
+
+.list-heading {
+    text-align: center;
+    color: rgba(0, 0, 0, 255);
+    font-size: 36px;
+}
+
+.title,
+#main-title {
+    margin: 0 auto;
     text-align: center;
     font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(0, 0, 0);
-    background-color: rgb(0, 150, 255);
+    width: fit-content;
+    font-size: 56px;
+    padding: 1%;
+    background-color: rgb(214, 68, 68);
+    border: 2px solid black;
 }
 
 .title {
     text-align: center;
     font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(0, 0, 0);
-    background-color: rgb(217, 255, 0);
+    font-size: 46px;
+    background-color: rgb(181, 184, 16);
 }
 
 .section-title {
     text-align: center;
+    font-size: 30px;
     font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(255, 100, 0);
+    /* font-family: Geneva, sans-serif; */
+    color: rgb(0, 0, 0, 255)
 }
+
+
 
 p {
     text-align: center;
@@ -27,20 +110,40 @@ p {
 
 .home-link {
     display: block;
-    text-align: center;
+    text-align: left;
     font-size: 24px;
 }
 
 .link {
-    text-align: left;
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(0, 0, 255)
+    display: block;
+    text-align: center;
+    color: rgba(0, 0, 0, 255);
+    font-size: 20px;
+    list-style-type: none;
+}
+
+ul.list {
+    text-align: center;
+
+}
+
+li {
+    display: inline;
+    color: rgba(255, 75, 75, 255);
+    font-size: 20px;
+    list-style-type: none;
 }
 
 .food-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 450;
+    height: auto;
+
+}
+
+.food-thum {
+    width: 175px;
+    height: auto;
 }
