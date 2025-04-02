@@ -75,7 +75,6 @@ div.list {
     font-size: 36px;
 }
 
-.title,
 #main-title {
     margin: 0 auto;
     text-align: center;
@@ -83,7 +82,7 @@ div.list {
     width: fit-content;
     font-size: 56px;
     padding: 1%;
-    background-color: rgb(214, 68, 68);
+    background-color: rgba(255, 94, 0, 255);
     border: 2px solid black;
 }
 
@@ -119,19 +118,17 @@ p {
     text-align: center;
     color: rgba(0, 0, 0, 255);
     font-size: 20px;
-    list-style-type: none;
+    padding-top: 5%;
 }
 
 ul.list {
     text-align: center;
-
 }
 
 li {
-    display: inline;
+    display: inline-block;
     color: rgba(255, 75, 75, 255);
     font-size: 20px;
-    list-style-type: none;
 }
 
 .food-image {
