@@ -46,7 +46,14 @@ div.highlight {
 
 div.spacer {
     display: inline;
+    vertical-align: middle;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    white-space: normal;
+    float: left;
     padding: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 div.menu-item {
